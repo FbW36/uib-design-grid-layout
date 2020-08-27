@@ -1,0 +1,81 @@
+.page {
+    min-height: 100vh;
+    padding: 60px 0;
+    background-color: mistyrose;
+}
+
+/* Setting up our reusable design grid with the help of CSS Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* No need to specify rows */
+    gap: 8px 8px;
+    /* We dont want the grid container to expand beyond a certain point */
+    max-width: 960px;
+    /* Let's center it */
+    margin: 0 auto;
+    /* Adding padding for smaller screens */
+    padding: 0 16px;
+}
+
+.col {
+    background-color: rgba(255, 0, 0, 0.256);
+    padding: 8px;
+    overflow: hidden;
+    color: rgba(255, 0, 0, 0.612);
+}
+
+.col-12 {
+    grid-column: span 12;
+}
+
+.col-11 {
+    grid-column: span 11;
+}
+
+.col-10 {
+    grid-column: span 10;
+}
+
+.col-9 {
+    grid-column: span 9;
+}
+
+.col-8 {
+    grid-column: span 8;
+}
+
+.col-7 {
+    grid-column: span 7;
+}
+
+.col-6 {
+    grid-column: span 6;
+}
+
+.col-5 {
+    grid-column: span 5;
+}
+
+.col-4 {
+    grid-column: span 4;
+}
+
+.col-3 {
+    grid-column: span 3;
+}
+
+.col-2 {
+    grid-column: span 2;
+}
+
+.col-1 {
+    grid-column: span 1;
+}
+
+/* 960 has no specific meaning, just a choice for a breakpoint  */
+@media (min-width:960px) {
+    .grid {
+        padding: 0;
+    }
+}
