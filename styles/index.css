@@ -18,21 +18,6 @@
     font-size: 42px;
 }
 
-/* Gallery */
-.gallery {
-    margin-bottom: 40px;
-}
-
-.card {
-    height: 400px;
-}
-
-.card img {
-    width: 100%;
-    height:  100%;
-    object-fit: cover;
-}
-
 .site-nav {
     display: flex;
     justify-content: flex-end;
@@ -56,6 +41,21 @@
 
 .site-nav-menu-link-active {
     color: blue;
+}
+
+/* Gallery */
+.gallery {
+    margin-bottom: 40px;
+}
+
+.card {
+    height: 400px;
+}
+
+.card img {
+    width: 100%;
+    height:  100%;
+    object-fit: cover;
 }
 
 /* Site footer */
